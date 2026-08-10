@@ -25,6 +25,9 @@ on:
         required: false
         default: ""
 
+permissions:
+  contents: write
+
 env:
   RENDEZVOUS_SERVER: "${{ secrets.RENDEZVOUS_SERVER }}"
   RELAY_SERVER: "${{ secrets.RELAY_SERVER }}"
